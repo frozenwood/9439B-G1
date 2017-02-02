@@ -1,0 +1,134 @@
+
+* { 
+	margin:0; 
+	padding:0;
+    font-family: 'Slot';
+}
+
+.main_content {
+    background-color: coral;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+
+
+header {
+	width: 100%;
+	height: 100%;
+}
+
+li {
+    display: inline;
+    font-size: 17px;
+    padding: 0px 95px 0px ;
+    font-stretch: expanded;
+    align-content: center;
+}
+
+#banner {
+    width: 100%;
+    height: 200px;
+    background-image: url('../pic.png');
+    background-size: cover;
+    background-position: top;
+    border-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    font-size: 30px;
+}
+
+#sidenav {
+    background-color: aquamarine;
+    height: 400px;
+    top: 200px;
+    left: 6px;
+}
+
+
+
+.main_content2 {
+    background-color: aqua;
+}
+
+.main_content3 {
+    background-color: aliceblue;
+}
+
+.main_content5 {
+    background-color: cadetblue
+}
+
+.main_content4 {
+    background-color: darkcyan;
+}
+
+.pic {
+    height: 200px;
+    width: 210px;
+    border-radius: 100px;
+    float: left;
+}
+
+p {
+    line-height: 50px;
+    margin-left: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.content {
+    margin: 10px;
+}
+
+#care {
+    width: 49.7%;
+    height: 300px;
+    float: left;
+    margin-right: 5px;
+}
+
+.overlay {
+    position: relative;
+    
+    bottom: -200px;
+    right: -190px;
+}
+
+#abuse {
+    width: 49.8%;
+    height: 300px;
+    float: left;
+}
+
+#gallery {
+}
+
+body {
+    background:repeating-linear-gradient(45deg,#606dbc, #606dbc 10px,#465298 10px,#465298 20px);
+}
+
+#first {
+    width: 365px;;
+    height: 300px;
+    float: left;
+    margin-right: 13px;
+}
+
+#second {
+    width: 365px;;
+    height: 300px;
+    float: left;
+    margin-right: 13px;
+}
+
+#third {
+    width: 365px;;
+    height: 300px;
+    float: left;
+}
