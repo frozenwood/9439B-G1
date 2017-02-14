@@ -1,0 +1,132 @@
+
+.main {
+    margin-left: 200px;
+}
+
+.sidenav {
+    width: 209px;
+    font-size: 50px;
+    display: table-row;
+    align-content: left;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    margin-top: 1px;
+    background-color: darkseagreen;
+}
+
+
+
+.sidenav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 208px;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+body {
+    /*background: repeating-linear-gradient(  45deg,  #606dbc,  #606dbc 20px,  #465298 20px,  #465298 40px);*/
+    background-color: peachpuff;
+    overflow-x: hidden;
+}
+
+a:hover {
+    background-color: aqua;
+    transition: 500ms ease;
+}
+
+
+
+#banner h1 , h2 {
+    text-align: center;
+    color: beige;
+}
+
+#banner {
+    margin-top: -10px;
+    margin-right: -10px;
+    background-color: lightcoral;
+}
+
+.image_left {
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+.images img {
+    width: 350px;
+    height: 350px;
+    margin: 10px auto;
+}
+
+.text_right {
+    display: inline-block;
+    width: 713px;
+    height: 600px;
+    float: right;
+    background-color: white;
+    text-align: center;
+    margin-right: -10px;
+}
+
+.text_right h1{
+    margin-top: 180px;;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text_right h2, p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+html {
+    font-family: "Century Gothic";
+}
+
+.text_right h2 {
+    color: darkseagreen;
+}
+
+.images {
+    width: 50s%;
+    align-content: center;
+    margin-left: 1%;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+.desc h1 {
+    text-align: center;
+}
+
+.principle img {
+    width: 50%;
+    height: 50%;
+    float:left;
+    margin-left: 10px;
+    
+}
+
+.principle p {
+    float: right;
+    height: 405px;
+    width: 45%;
+    text-align: center;
+}
+
+.principle img {
+    margin-top: 1px;
+}
+
+#quote h1 {
+    text-align: center;
+}
