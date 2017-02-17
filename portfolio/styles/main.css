@@ -1,0 +1,148 @@
+
+.main {
+    margin-left: 200px;
+}
+
+.sidenav {
+    width: 209px;
+    font-size: 50px;
+    display: table-row;
+    align-content: left;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    margin-top: 1px;
+    background-color: darkseagreen;
+}
+
+
+
+.sidenav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 208px;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+body {
+    background-color: peachpuff;
+    overflow-x: hidden;
+}
+
+a:hover {
+    background-color: aqua;
+    transition: 500ms ease;
+}
+
+
+
+#banner h1 , h2 {
+    text-align: center;
+    color: beige;
+}
+
+#banner {
+    margin-top: -10px;
+    margin-right: -10px;
+    background-color: lightcoral;
+}
+
+.image_left {
+    display: inline-block;
+    width: 35%;
+    float: left;
+}
+
+.images img {
+    width: 24%;
+    margin: 10px auto;
+}
+
+.text_right {
+    display: inline-block;
+    width: 47.9%;
+    height: 600px;
+    float: right;
+    background-color: white;
+    text-align: center;
+    margin-right: -10px;
+}
+
+.text_right h1{
+    margin-top: 180px;;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text_right h2, p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+html {
+    font-family: "Century Gothic";
+}
+
+.text_right h2 {
+    color: darkseagreen;
+}
+
+.images {
+    width: 50s%;
+    align-content: center;
+    margin-left: 1%;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+.desc h1 {
+    text-align: center;
+}
+
+.principle img {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 1px;
+    
+}
+
+.principle p {
+    text-align: center;
+}
+
+
+
+#quote h1 {
+    text-align: center;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    border-right: none;
+    border-left: none;
+}
+
+.principle {
+    background-color: white;
+    height: 25%;
+    width: 50%;
+    float: left;
+    margin-left: 0px;
+}
+
+.abuse {
+    background-color: white;
+    height: 25%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
