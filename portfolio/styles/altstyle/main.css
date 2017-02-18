@@ -1,0 +1,182 @@
+html { 
+  height: 100%;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font: normal .80em arial, sans-serif;
+  background-color: antiquewhite;
+  color: #403838;
+  overflow-x: hidden;
+}
+
+p { 
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+  font: normal 170%  Candara, sans-serif;
+}
+
+img { 
+  border: 0;
+}
+
+h1 { 
+  color: goldenrod;
+  font: 377% Forte, sans-serif;
+}
+
+h2 { 
+  font: normal 250%  Candara, sans-serif;
+  color: #333;  
+  margin: 0 0 0 0;
+  padding: 10px 0 5px 0;
+}
+
+a:hover { 
+  background: transparent;
+  outline: none;
+  text-decoration: line-through;
+  color: saddlebrown;
+}
+
+
+.main { 
+  width: 1250px;
+  margin: 0 auto;
+}
+
+
+#banner { 
+  width: 1250px;
+  position: relative;
+  height: 165px;
+  background-color: navajowhite;
+  padding: 15px 5px;
+  text-align: center;
+}
+
+#banner h1 {
+  font: normal 640% 'News Cycle', Showcard Gothic, sans-serif;
+}
+
+#banner h2 {
+  font: normal 150% 'News Cycle', Kristen ITC, sans-serif;
+}
+#banner h3 {
+  font: normal 150% 'News Cycle', Abadi MT Condensed, sans-serif;
+}
+
+.sidenav {
+    
+    background-color: antiquewhite;
+    list-style:none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: #05CCDE;
+    font-size: 40px;
+}
+.sidenav > a{
+
+  display: inline-block;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 40px;
+
+}
+
+.text_right { 
+    display: inline-block;
+    width: 50%;
+    height: 600px;
+    float: right;
+    background-color: white;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.text_right h1{
+    margin-top: 120px;;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text_right h2, p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image_left { 
+    display: inline-block;
+    width: 550px;
+    height: inherit;
+    padding: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+
+  
+}
+.images {
+    width: 50s%;
+    align-content: center;
+    margin-left: 1%;
+}
+
+.images img {
+    width: 24%;
+    margin: 10px auto;
+}
+
+
+#animals { 
+  width: 1150px;
+  margin: 0 auto;
+  font: 60% 'News Cycle', arial, sans;
+  text-shadow: 1px 1px #EFEFD5;
+  color: #222;
+  height: 125px;
+  padding: 7px 0 5px 0;
+  text-align: center; 
+  background-color: white;
+}
+
+
+.desc h1 {
+    text-align: center;
+}
+
+.principle img {
+    width: 70%;
+    height: 60%;
+    margin-left: 25%;
+    margin-top: 15px;
+}
+
+.principle p {
+    text-align: center;
+}
+
+
+#quote h1 {
+    text-align: center;
+}
+
+.principle {
+    background-color: white;
+    height: 25%;
+    width: 50%;
+    float: left;
+    margin-left: 0px;
+}
+
+#about{
+  width: inherit;
+    float: center;
+    background-color: white;
+    text-align: center;
+    margin-right: 20px;
+}
